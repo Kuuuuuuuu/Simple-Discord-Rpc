@@ -10,5 +10,5 @@ require('dotenv').config();
         console.log("Ready!");
     });
 
-    await client.login({ clientId: process.env.applicationID }).catch(console.error); // Logging into our application.
+    await client.login({ clientId: process.env.applicationID }).catch(console.error);
 })();
