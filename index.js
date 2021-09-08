@@ -5,7 +5,9 @@ require('dotenv').config();
 (async () => {
     client.on('ready', async () => {
         await client.setActivity({
-            details: "In Game", 
+            details: "Developing", 
+            startTimestamp,
+            instance: false,
         }).catch(err => console.log(err))
         console.log("Ready!");
     });
